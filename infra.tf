@@ -187,7 +187,7 @@ resource "aws_route_table_association" "public-3" {
 terraform {
   backend "s3"{
     bucket = "tmp-algerie"
-    key = "/dev/Infra"
+    key = "dev/Infra"
     region = "eu-west-1"
   }
 }
