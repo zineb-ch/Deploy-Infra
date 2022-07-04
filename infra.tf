@@ -98,6 +98,7 @@ resource "aws_subnet" "subnet-private-3" {
   }
 }
 
+/*
 ## SG Rule egress
 resource "aws_security_group_rule" "web_egress_allow_all" {
   type              = "egress"
@@ -117,6 +118,7 @@ resource "aws_security_group_rule" "ingress_allow_private" {
   cidr_blocks       = ["10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24"]
   security_group_id = aws_security_group.allow_nat.id
 }
+*/
 
 # Route Table
 ## Private
