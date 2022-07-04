@@ -188,6 +188,6 @@ terraform {
   backend "s3"{
     bucket = "tmp-algerie"
     key = "/dev/Infra"
-    region "eu-west-1"
+    region = "eu-west-1"
   }
 }
